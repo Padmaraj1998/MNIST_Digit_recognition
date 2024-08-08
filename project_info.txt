@@ -1,0 +1,9 @@
+
+1) Setup new environmment   - python -m venv venv1
+2) Activate virtual environment - .\venv1\Scripts\Activate
+3) setup.py (installs required packages from requirements.txt)
+4) requirements.txt          - pip install -r requirements.txt
+
+
+1) Exception and logger
+1) project topic understanding about EDA and modeltraining samples in the file
