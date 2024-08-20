@@ -1,6 +1,5 @@
 import sys
-from logger import logging
-import logging
+from src1.logger import logging
 
 
 def fetch_error_msg(error_msg,msg_detail:sys):
@@ -21,6 +20,7 @@ class CustomException(Exception):
     
 
 # if __name__=="__main__":
+    
 #     try:
 #         a=5
 #         c=a/0

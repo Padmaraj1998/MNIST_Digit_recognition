@@ -1,0 +1,16 @@
+README.md
+setup.py
+MNIST_Digitrecognition.egg-info/PKG-INFO
+MNIST_Digitrecognition.egg-info/SOURCES.txt
+MNIST_Digitrecognition.egg-info/dependency_links.txt
+MNIST_Digitrecognition.egg-info/requires.txt
+MNIST_Digitrecognition.egg-info/top_level.txt
+src1/__init__.py
+src1/exception.py
+src1/logger.py
+src1/utils.py
+src1/component/__init__.py
+src1/component/current_working_directory.py
+src1/component/data_ingestion.py
+src1/component/data_transformation.py
+src1/component/model_trainer.py
