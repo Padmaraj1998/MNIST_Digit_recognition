@@ -1,3 +1,6 @@
 [2024-08-20 18:52:33,606] 29 root - INFO - Raw  data is read
 [2024-08-20 18:52:46,603] 36 root - INFO - Raw data file captured into artifact directory
 [2024-08-20 18:52:46,655] 46 root - INFO - Ingestion main class data captured
+[2024-08-20 18:59:27,669] 29 root - INFO - Raw  data is read
+[2024-08-20 18:59:43,532] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-20 18:59:43,588] 46 root - INFO - Ingestion main class data captured
