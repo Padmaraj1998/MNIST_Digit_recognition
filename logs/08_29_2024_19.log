@@ -1,0 +1,24 @@
+[2024-08-29 19:19:11,463] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifacts\preprocessor.pkl
+[2024-08-29 19:19:20,417] 29 root - INFO - Raw  data is read
+[2024-08-29 19:19:33,212] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-29 19:19:33,260] 46 root - INFO - Ingestion main class data captured
+[2024-08-29 19:19:40,579] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-29 19:19:41,496] 61 root - INFO - Saved preprocessing object
+[2024-08-29 19:24:31,823] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifacts\preprocessor.pkl
+[2024-08-29 19:24:39,741] 29 root - INFO - Raw  data is read
+[2024-08-29 19:24:52,627] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-29 19:24:52,675] 46 root - INFO - Ingestion main class data captured
+[2024-08-29 19:25:00,532] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-29 19:25:01,294] 61 root - INFO - Saved preprocessing object
+[2024-08-29 19:26:18,058] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifacts\preprocessor.pkl
+[2024-08-29 19:26:24,385] 29 root - INFO - Raw  data is read
+[2024-08-29 19:26:37,005] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-29 19:26:37,052] 46 root - INFO - Ingestion main class data captured
+[2024-08-29 19:26:43,693] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-29 19:26:44,176] 61 root - INFO - Saved preprocessing object
+[2024-08-29 19:28:50,118] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-29 19:28:58,065] 29 root - INFO - Raw  data is read
+[2024-08-29 19:29:10,741] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-29 19:29:10,795] 46 root - INFO - Ingestion main class data captured
+[2024-08-29 19:29:17,431] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-29 19:29:18,040] 61 root - INFO - Saved preprocessing object

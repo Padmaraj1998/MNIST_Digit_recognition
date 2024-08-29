@@ -10,7 +10,7 @@ import pandas as pd
 
 import tensorflow as tf
 
-
+from src1.component.data_transformation import DataTransformation
 
 @dataclass
 class Data_ingestion_config:
@@ -34,7 +34,7 @@ class Data_ingestion_collection:
             train_raw_data.to_csv(self.ingestion_config_capture.train_data_path,index=False,header=True)
             test_raw_data.to_csv(self.ingestion_config_capture.test_data_path,index=False,header=True)
             logging.info("Raw data file captured into artifact directory")
-
+            return(self.ingestion_config_capture.train_data_path,self.ingestion_config_capture.test_data_path)
            
         except Exception as e:
             raise CustomException(e,sys)
@@ -42,5 +42,7 @@ class Data_ingestion_collection:
 if __name__ == "__main__":
     sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
     data_ingestion = Data_ingestion_collection()
-    data_ingestion.data_ingestion_method()
+    train_data,test_data = data_ingestion.data_ingestion_method()
     logging.info("Ingestion main class data captured")
+    transformation = DataTransformation()
+    transformation.transform_data(train_data,test_data)

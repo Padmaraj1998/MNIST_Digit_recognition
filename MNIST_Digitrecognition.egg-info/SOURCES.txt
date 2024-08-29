@@ -10,7 +10,6 @@ src1/exception.py
 src1/logger.py
 src1/utils.py
 src1/component/__init__.py
-src1/component/current_working_directory.py
 src1/component/data_ingestion.py
 src1/component/data_transformation.py
 src1/component/model_trainer.py

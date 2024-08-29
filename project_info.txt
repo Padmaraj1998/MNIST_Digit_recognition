@@ -7,3 +7,10 @@
 
 1) Exception and logger
 1) project topic understanding about EDA and modeltraining samples in the file
+
+alreaady xtrain and y train is crated we just
+transform,train with neural network, only with input columns
+get image, image convertion to data, covert to grayscale, convert dimension
+probabilty value will be resulted - argmax
+tranformation is needed for raw test and train data
+at the time of receving input check how to transform the image to data

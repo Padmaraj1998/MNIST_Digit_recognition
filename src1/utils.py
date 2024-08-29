@@ -1,26 +1,23 @@
-import sys
 import os
+import sys
 
-# Get the directory of the current script
-script_dir = os.path.dirname(os.path.abspath(__file__))
+import numpy as np
+import pandas as pd
 
-# Calculate the project root directory (one level up from src1)
-project_root = os.path.abspath(os.path.join(script_dir, '..'))
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import r2_score
+from src1.exception import CustomException
+import pickle
 
-# Add the project root directory to PYTHONPATH
-sys.path.append(project_root)
+import dill
 
-# Change the working directory to the project root
-os.chdir(project_root)
+def save_object(file_path,obj):
+    try:
+        dir_path = os.path.dirname(file_path)
 
-# Print the current working directory and PYTHONPATH for verification
-print(f"Current working directory: {os.getcwd()}")
-print(f"PYTHONPATH: {sys.path}")
+        os.makedirs(dir_path,exist_ok=True)
 
-# Import modules
-try:
-    from src1 import exception
-    from src1.exception import CustomException
-    print("Imports successful.")
-except ModuleNotFoundError as e:
-    print(f"Import failed: {e}")
+        with open(file_path,"wb") as file_obj:
+            dill.dump(obj , file_obj)
+    except Exception as e:
+        raise CustomException(e,sys)
