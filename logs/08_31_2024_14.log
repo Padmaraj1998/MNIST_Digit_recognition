@@ -1,0 +1,19 @@
+[2024-08-31 14:02:58,568] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-31 14:03:30,035] 30 root - INFO - Raw  data is read
+[2024-08-31 14:03:42,753] 38 root - INFO - Raw data file captured into artifact directory
+[2024-08-31 14:03:42,800] 49 root - INFO - Ingestion main class data captured
+[2024-08-31 14:03:51,195] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-31 14:04:10,570] 69 root - INFO - Saved preprocessing object
+[2024-08-31 14:07:27,201] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+[2024-08-31 14:07:27,202] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 14:07:58,693] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 14:07:58] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 14:11:47,882] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+[2024-08-31 14:11:47,885] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 14:12:03,793] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 14:12:03] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 14:12:35,301] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 14:12:35] "GET /predict_digit_img HTTP/1.1" 200 -

@@ -5,6 +5,7 @@ scikit-learn==0.24.2
 seaborn==0.11.2
 xgboost
 dill
-Flask
+flask
 tensorflow
+opencv-python
 -e .
