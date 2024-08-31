@@ -1,0 +1,113 @@
+[2024-08-31 16:07:39,182] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:07:39,183] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:07:45,666] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:07:45] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:09:02,487] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:09:02,508] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:09:05,245] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:09:05] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:09:07,599] 838 app - ERROR - Exception on /predict_digit_img [POST]
+Traceback (most recent call last):
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py", line 22, in predict_img
+    if 'image' not in request.file:
+AttributeError: 'Request' object has no attribute 'file'
+[2024-08-31 16:09:07,624] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:09:07] "[35m[1mPOST /predict_digit_img HTTP/1.1[0m" 500 -
+[2024-08-31 16:12:33,261] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:12:33,262] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:12:39,578] 18 root - INFO - Exception Error occured in python script name [F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py] line number [23] error message ['Request' object has no attribute 'file']
+[2024-08-31 16:12:39,576] 838 app - ERROR - Exception on /predict_digit_img [POST]
+Traceback (most recent call last):
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py", line 23, in predict_img
+    if 'image' not in request.file:
+AttributeError: 'Request' object has no attribute 'file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py", line 51, in predict_img
+    raise CustomException(e,sys)
+src1.exception.CustomException: Error occured in python script name [F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py] line number [23] error message ['Request' object has no attribute 'file']
+[2024-08-31 16:12:39,579] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:12:39] "[35m[1mPOST /predict_digit_img HTTP/1.1[0m" 500 -
+[2024-08-31 16:12:50,955] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:12:50] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:12:54,763] 18 root - INFO - Exception Error occured in python script name [F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py] line number [23] error message ['Request' object has no attribute 'file']
+[2024-08-31 16:12:54,762] 838 app - ERROR - Exception on /predict_digit_img [POST]
+Traceback (most recent call last):
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py", line 23, in predict_img
+    if 'image' not in request.file:
+AttributeError: 'Request' object has no attribute 'file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py", line 51, in predict_img
+    raise CustomException(e,sys)
+src1.exception.CustomException: Error occured in python script name [F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\app.py] line number [23] error message ['Request' object has no attribute 'file']
+[2024-08-31 16:12:54,764] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:12:54] "[35m[1mPOST /predict_digit_img HTTP/1.1[0m" 500 -
+[2024-08-31 16:14:37,301] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:14:37,301] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:14:40,854] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:14:40] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:14:43,140] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:14:43] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:15:25,334] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:15:25] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:15:39,573] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:15:39] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:16:16,563] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:16:16] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:18:59,108] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:18:59,108] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:19:03,597] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:19:03] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:19:11,639] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:19:11] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:19:39,103] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:19:39] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:19:49,497] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:19:49] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:21:06,463] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:21:06] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:27:24,869] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:27:24,870] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:27:27,527] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:27:27] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:28:05,207] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:28:05] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:28:20,190] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:28:20,190] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:28:33,715] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:28:33] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:28:41,313] 32 root - INFO - File saved successfully
+[2024-08-31 16:29:35,315] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:29:35] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:29:40,352] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:29:40] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:31:22,574] 32 root - INFO - File saved successfully
+[2024-08-31 16:31:23,078] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:31:23] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:31:33,882] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:31:33] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:32:50,287] 32 root - INFO - File saved successfully
+[2024-08-31 16:32:50,729] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:32:50] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:34:10,285] 32 root - INFO - File saved successfully
+[2024-08-31 16:34:10,721] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:34:10] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:34:19,591] 32 root - INFO - File saved successfully
+[2024-08-31 16:34:19,910] 157 tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000236D9C6A4C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2024-08-31 16:34:19,918] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:34:19] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:37:29,132] 32 root - INFO - File saved successfully
+[2024-08-31 16:37:29,474] 157 tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000236DACE6790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2024-08-31 16:37:29,483] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:37:29] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:37:44,785] 32 root - INFO - File saved successfully
+[2024-08-31 16:37:45,114] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:37:45] "POST /predict_digit_img HTTP/1.1" 200 -

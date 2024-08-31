@@ -1,0 +1,19 @@
+[2024-08-31 15:24:08,926] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 15:24:08,926] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 15:24:15,732] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:24:15] "GET / HTTP/1.1" 200 -
+[2024-08-31 15:24:16,290] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:24:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-08-31 15:25:10,702] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:25:10] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 15:32:45,730] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 15:32:45,730] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 15:32:48,765] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:32:48] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 15:38:02,984] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 15:38:03,006] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 15:38:29,306] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:38:29] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 15:38:52,655] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:38:52] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 15:39:29,809] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 15:39:29,809] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 15:39:32,537] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:39:32] "GET /predict_digit_img HTTP/1.1" 200 -
