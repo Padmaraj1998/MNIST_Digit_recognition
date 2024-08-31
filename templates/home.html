@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html>
-    <form action="/predict_digit_img" method="POST" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*">
-        <input type="submit" name="Upload Image">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Image Upload</title>
+    <style>
+        #drop-area {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            margin: 50px auto;
+            text-align: center;
+            line-height: 180px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        #drop-area.hover {
+            border-color: #333;
+            color: #333;
+        }
+        #uploadStatus {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 20px;
+        }
+        #prediction {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form id="uploadForm" action="/predict_digit_img" method="POST" enctype="multipart/form-data">
+        <div id="drop-area">
+            Drop image here or click to upload
+        </div>
+        <input type="file" id="fileElem" name="image" accept="image/*" style="display:none">
+        <input type="submit" style="display:none">
+        <p id="uploadStatus">No upload in progress</p>
     </form>
+    <h2 id="prediction">The prediction is: <span id="result">{{ results }}</span></h2>
 
+    <script>
+        const dropArea = document.getElementById('drop-area');
+        const fileElem = document.getElementById('fileElem');
+        const uploadStatus = document.getElementById('uploadStatus');
+        const form = document.getElementById('uploadForm');
+        const resultElem = document.getElementById('result');
 
-<h2>
-    THE  prediction is {{results}}
-</h2>
+        // Prevent default drag behaviors
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, preventDefaults, false);
+        });
+
+        // Highlight drop area when item is dragged over it
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropArea.addEventListener(eventName, () => dropArea.classList.add('hover'), false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, () => dropArea.classList.remove('hover'), false);
+        });
+
+        // Handle dropped files
+        dropArea.addEventListener('drop', handleDrop, false);
+
+        // Handle file selection when clicking on the drop area
+        dropArea.addEventListener('click', () => fileElem.click(), false);
+
+        fileElem.addEventListener('change', () => handleFiles(fileElem.files), false);
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        function handleDrop(e) {
+            let dt = e.dataTransfer;
+            let files = dt.files;
+            handleFiles(files);
+        }
+
+        function handleFiles(files) {
+            if (files.length > 0) {
+                fileElem.files = files; // Set the file input's files property
+                form.submit(); // Submit the form
+            }
+        }
+    </script>
+</body>
 </html>

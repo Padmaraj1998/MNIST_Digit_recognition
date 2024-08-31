@@ -1,0 +1,63 @@
+[2024-08-31 17:05:35,757] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:05:35,757] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:05:53,350] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:05:53] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:06:01,496] 32 root - INFO - File saved successfully
+[2024-08-31 17:06:15,022] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:06:15] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:08:41,918] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:08:41,919] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:08:46,569] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:08:46] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:08:55,219] 32 root - INFO - File saved successfully
+[2024-08-31 17:09:03,369] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:09:03] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:30:23,777] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:30:23,778] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:30:27,293] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:30:27] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:30:38,301] 32 root - INFO - File saved successfully
+[2024-08-31 17:31:14,699] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:31:14] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:31:56,522] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:31:56,523] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:31:59,751] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:31:59] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:32:08,237] 32 root - INFO - File saved successfully
+[2024-08-31 17:32:30,522] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:32:30] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:33:36,297] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:33:36,298] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:33:39,150] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:33:39] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:33:40,955] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:33:40] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:33:54,796] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:33:54] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:33:54,973] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:33:54] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:33:55,223] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:33:55] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:33:55,324] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:33:55] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:33:55,573] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:33:55] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:33:57,936] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:33:57] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:35:10,483] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:35:10] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:35:18,118] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:35:18] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:35:44,506] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:35:44,635] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:35:47,259] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:35:47] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:39:09,277] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:39:09,278] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:39:12,384] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:39:12] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:39:46,245] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:39:46,246] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:39:52,673] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:39:52] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:40:00,252] 32 root - INFO - File saved successfully
+[2024-08-31 17:40:19,698] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:40:19] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:43:25,015] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:43:25,016] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:43:33,227] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:43:33] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:43:41,298] 32 root - INFO - File saved successfully
+[2024-08-31 17:43:58,163] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:43:58] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:51:38,038] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 17:51:38,038] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 17:51:44,056] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:51:44] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 17:51:53,425] 32 root - INFO - File saved successfully
+[2024-08-31 17:51:58,789] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 17:51:58] "POST /predict_digit_img HTTP/1.1" 200 -

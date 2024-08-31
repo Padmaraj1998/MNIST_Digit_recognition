@@ -111,3 +111,17 @@ src1.exception.CustomException: Error occured in python script name [F:\python\M
 [2024-08-31 16:37:29,483] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:37:29] "POST /predict_digit_img HTTP/1.1" 200 -
 [2024-08-31 16:37:44,785] 32 root - INFO - File saved successfully
 [2024-08-31 16:37:45,114] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:37:45] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:47:55,717] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:47:55,718] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:48:09,329] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:48:09] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:48:21,542] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:48:21] "[33mPOST /upload HTTP/1.1[0m" 404 -
+[2024-08-31 16:49:16,130] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-08-31 16:49:16,131] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-08-31 16:49:19,277] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:49:19] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:49:27,337] 32 root - INFO - File saved successfully
+[2024-08-31 16:49:51,114] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:49:51] "POST /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:55:47,856] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:55:47] "GET /predict_digit_img HTTP/1.1" 200 -
+[2024-08-31 16:55:55,408] 32 root - INFO - File saved successfully
+[2024-08-31 16:55:55,928] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:55:55] "POST /predict_digit_img HTTP/1.1" 200 -
