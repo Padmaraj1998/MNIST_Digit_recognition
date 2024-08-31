@@ -1,0 +1,28 @@
+[2024-08-30 10:16:06,847] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 10:16:14,690] 29 root - INFO - Raw  data is read
+[2024-08-30 10:16:27,456] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 10:16:27,505] 46 root - INFO - Ingestion main class data captured
+[2024-08-30 10:22:08,753] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 10:22:16,938] 29 root - INFO - Raw  data is read
+[2024-08-30 10:22:31,189] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 10:22:31,238] 46 root - INFO - Ingestion main class data captured
+[2024-08-30 10:24:51,310] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 10:24:59,304] 29 root - INFO - Raw  data is read
+[2024-08-30 10:25:18,263] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 10:25:18,408] 46 root - INFO - Ingestion main class data captured
+[2024-08-30 10:28:06,461] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 10:28:16,040] 29 root - INFO - Raw  data is read
+[2024-08-30 10:28:36,688] 36 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 10:28:36,736] 46 root - INFO - Ingestion main class data captured
+[2024-08-30 10:28:46,139] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-30 10:29:35,540] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 10:29:43,871] 28 root - INFO - Raw  data is read
+[2024-08-30 10:30:05,178] 35 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 10:30:05,258] 45 root - INFO - Ingestion main class data captured
+[2024-08-30 10:30:14,719] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-30 10:31:02,512] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 10:31:10,192] 28 root - INFO - Raw  data is read
+[2024-08-30 10:31:33,111] 35 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 10:31:33,176] 45 root - INFO - Ingestion main class data captured
+[2024-08-30 10:31:46,858] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-30 10:31:48,064] 61 root - INFO - Saved preprocessing object

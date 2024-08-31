@@ -1,0 +1,38 @@
+[2024-08-30 11:24:48,179] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 11:25:27,809] 30 root - INFO - Raw  data is read
+[2024-08-30 11:25:41,389] 38 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 11:25:41,436] 49 root - INFO - Ingestion main class data captured
+[2024-08-30 11:25:48,360] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-30 11:25:49,284] 61 root - INFO - Saved preprocessing object
+[2024-08-30 11:34:33,974] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 11:35:13,603] 30 root - INFO - Raw  data is read
+[2024-08-30 11:35:26,779] 38 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 11:35:26,827] 49 root - INFO - Ingestion main class data captured
+[2024-08-30 11:35:34,587] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-30 11:35:35,643] 61 root - INFO - Saved preprocessing object
+[2024-08-30 11:35:47,546] 18 root - INFO - Exception Error occured in python script name [F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\venv2\lib\site-packages\src1\component\model_trainer.py] line number [35] error message [Exception encountered when calling Sequential.call().
+
+[1mInvalid input shape for input Tensor("data:0", shape=(32, 27), dtype=float32). Expected shape (None, 28, 28), but input has incompatible shape (32, 27)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(32, 27), dtype=float32)
+  • training=True
+  • mask=None]
+[2024-08-30 11:40:33,028] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 11:41:09,114] 30 root - INFO - Raw  data is read
+[2024-08-30 11:41:27,852] 38 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 11:41:27,907] 49 root - INFO - Ingestion main class data captured
+[2024-08-30 11:41:42,031] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-30 11:41:45,297] 62 root - INFO - Saved preprocessing object
+[2024-08-30 11:48:56,345] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 11:49:40,056] 30 root - INFO - Raw  data is read
+[2024-08-30 11:49:54,851] 38 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 11:49:54,898] 49 root - INFO - Ingestion main class data captured
+[2024-08-30 11:50:01,684] 48 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-30 11:50:02,600] 63 root - INFO - Saved preprocessing object
+[2024-08-30 11:53:48,715] 14 root - INFO - pickle file location -  F:\python\ML_DL_project\MNIST_DIGIT_RECOGNITION\artifact\preprocessor.pkl
+[2024-08-30 11:53:59,157] 30 root - INFO - Raw  data is read
+[2024-08-30 11:54:14,321] 38 root - INFO - Raw data file captured into artifact directory
+[2024-08-30 11:54:14,374] 49 root - INFO - Ingestion main class data captured
+[2024-08-30 11:54:21,984] 47 root - INFO - Applying preprocessing object on training dataframe and testing dataframe
+[2024-08-30 11:54:23,105] 65 root - INFO - Saved preprocessing object
